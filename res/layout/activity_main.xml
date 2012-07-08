@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/txtVisina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="37dp"
+        android:text="@string/txtVisina" />
+    <TextView
+        android:id="@+id/txtTezina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="76dp"
+        android:text="@string/txtTezina" />
+
+    <Button
+        android:id="@+id/buttonIzracunajBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="108dp"
+        android:text="@string/buttonIzracunajBMI"
+        android:onClick="izracunajBMI" />
+
+    <EditText
+        android:id="@+id/UnesiVisinu"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="26dp"
+        android:ems="10"
+        android:hint="@string/UnesiVisinu"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/padding_large" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/UnesiTezinu"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="66dp"
+        android:ems="10"
+        android:hint="@string/UnesiTezinu"
+        android:inputType="number"
+        android:textSize="@dimen/padding_large" />
+
+<!-- 
+    <TextView
+        android:id="@+id/txtBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="184dp"
+        android:text="@string/txtBMI" />
+ 
+    <EditText
+        android:id="@+id/IzlazBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="172dp"
+        android:ems="10"
+        android:text="@string/IzlazBMI" />
+ -->
+
+    <TextView
+        android:id="@+id/KakavJeVasBMI"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="192dp" />
+    
+</AbsoluteLayout>

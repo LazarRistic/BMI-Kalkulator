@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">BMI Kalkulator</string>
+    <string name="title_activity_main">BMI Kalkulator</string>
+    <string name="UnesiVisinu">Unesite vasu Visinu u m</string>
+    <string name="txtVisina">Visina:</string>
+    <string name="txtTezina">Tezina:</string>
+    <string name="UnesiTezinu">Unesite vasu Tezinu u Kg</string>
+    <string name="txtBMI">BMI:</string>
+    <string name="IzlazBMI"></string>
+    <string name="buttonIzracunajBMI">Izracunaj BMI</string>
+    
+
+</resources>
